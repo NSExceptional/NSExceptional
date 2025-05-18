@@ -10,18 +10,18 @@ _Part time hacker / tinker_
 <table>
 <tr>
 <td><strong>Jsum</strong></td>
-<td>A Swift Codable replacement that uses reflection to create types and map values. No Codable, no Macros—just runtime magic.</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="3">
+<td colspan=2>
+A Swift Codable replacement that uses reflection to create types and map values. No Codable, no Macros—just runtime magic.
 
 ```swift
 let person: (name: String, age: Int) = try Jsum.decode(
     from: ['name': 'Bob', 'age': 25]
 )
 ```
+
 </td>
+</tr>
+<tr>
 </tr>
 <tr>
 <td><strong>FLEX</strong></td>
