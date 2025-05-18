@@ -24,10 +24,10 @@ _Part time hacker / tinker_
 %end
 ```
 
-## Recent Endeavors
+## What I'm working on lately
 
 - Replacing my personal bash scripts with TypeScript [Deno scripts](https://deno.com/)
-   - Wrote a [script to parse MP4 file headers](https://gist.github.com/NSExceptional/17e38f3b0818f5330bbc9ee444157768) to check whether a video has the `hvc1` tag
+   - Had fun writing a [script to parse MP4 file headers](https://gist.github.com/NSExceptional/17e38f3b0818f5330bbc9ee444157768) to check whether a video has the `hvc1` tag
 - Wrote a VS Code extension to wrap our<sup><sup>Tinder's</sup></sup> CLI build tools in a GUI
 - Wrote some userscripts to automate common tasks when creating or reveiwing PRs at work ([gist](https://gist.github.com/tinder-tannerbennett/7ab2091184dbad71f5387cca3960e65f))
    - My favorite is the one that generates a message like this with a keystroke, for pasting into Slack:
