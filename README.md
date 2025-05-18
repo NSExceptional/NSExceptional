@@ -3,7 +3,19 @@
 _Full time iOS dev_  
 _Part time hacker / tinker_  
 
----
+```logos
+%hook Engineer
+- (id)init {
+    self = %orig;
+
+    self.name = @"Tanner";
+    self.languages = @[@"Swift", @"Objective-C", @"TypeScript"];
+    self.skills = @[@"Debugging", @"Performance Profiling", @"Reverse Engineering"];
+
+    return self;
+}
+%end
+```
 
 ### Some Projects
 
