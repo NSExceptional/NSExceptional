@@ -4,13 +4,20 @@ _Full time iOS dev_
 _Part time hacker / tinker_  
 
 ```logos
-%hook Engineer
+%hook Engineer // Ask me what language this is!
 - (id)init {
     self = %orig;
-
     self.name = @"Tanner";
+
+    // I dabble in a lot more than this, but these are my big 3 😊
     self.languages = @[@"Swift", @"Objective-C", @"TypeScript"];
+
+    // Writing jailbreak tweaks is what got me into making iOS apps;
+    // these are all skills I picked up along the way 🔧
     self.skills = @[@"Debugging", @"Performance Profiling", @"Reverse Engineering"];
+
+    // Again, I dabble in more than these :)
+    self.frameworks = @[@"UIKit", @"SwiftUI", @"Node", @"React"];
 
     return self;
 }
