@@ -1,6 +1,6 @@
 # Hi, I'm Tanner 🐈‍⬛
 
-_Full time iOS dev_  
+_Full time iOS dev / mobile security engineer_  
 _Part time hacker / tinker_  
 
 ```logos
@@ -24,7 +24,17 @@ _Part time hacker / tinker_
 %end
 ```
 
-## What I'm working on lately
+## What I'm working on in 2026
+
+- Yet another VS Code extensino to make my job easier at work
+- Wrote an iOS app 100% with Claude Code that will use Ffmpeg+libx265 to convert videos on-device to H265
+   - Something you cannot do natively on iOS without using a software encoder, which produces large file sizes
+   - Very slow on iPhones, so turning this into a Catalyst app too so I can leverage the extra horsepower there
+   - Useful for reducing video file sizes by up to 90% or more with no perceptible quality difference
+      - iOS screen recordings are _dozens_ of MBs, this cuts them down to 1-2 MB
+- Hopefully I will use Claude Code to finish all my other side projects, like a receipt tracking app, and maybe start more
+
+## What I worked on in 2025
 
 - Replacing my personal bash scripts with TypeScript [Deno scripts](https://deno.com/)
    - Had fun writing a [script to parse MP4 file headers](https://gist.github.com/NSExceptional/17e38f3b0818f5330bbc9ee444157768) to check whether a video has the `hvc1` tag
